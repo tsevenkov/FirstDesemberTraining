@@ -1,0 +1,509 @@
+/* Reset CSS */
+
+/* Обнуление отступов и полей */
+body, h1, h2, h3, p, ul, ol, li, figure, figcaption, dl, dd, dt {
+    margin: 0;
+    padding: 0;
+}
+
+/* Обнуление границ и рамок */
+img, iframe, embed, object, video {
+    border: 0;
+}
+
+/* Обнуление размеров элементов, устанавливает их базовый размер в 1em */
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+/* Установка базового размера шрифта и линейного интервала */
+body {
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+
+
+
+
+
+
+
+/* Начало основного файла */
+
+.container{
+    width: 1200px;
+    margin: auto;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 96px;
+}
+
+.logo{
+    color: #2E4E92;
+    font-weight: 700;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+nav{
+    
+}
+
+ul{
+    list-style-type: none;
+}
+
+.menu-items{
+    display: flex;
+    gap: 50px;
+    margin: 0;
+    padding: 0;
+}
+
+menu-item{
+    width: 80px;
+}
+
+.title{
+    font-size: 48px;
+    line-height: 56px;
+    font-weight: 700;
+    color: #3C567B;
+}
+
+.main-description{
+
+}
+
+.main-description p{
+    margin-top: 20px;
+    margin-bottom: 80px;
+    color: #93C1F9;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0.38px;
+    max-width: 525.896px;
+}
+
+.menu-item a:hover{
+    color: #2E4E92;
+    font-weight: 700;
+}
+
+.menu-item a{
+    font-size: 18px;
+    color: #1F1534;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+.main-button{
+    padding: 0 50px;
+    width: 191.235px;
+    height: 68.757px;
+    border-radius: 55px;
+    background: #458FF6;
+    border: 1px solid #458FF6;
+    cursor: pointer;
+}
+
+.common-button{
+    margin-top: 60px;
+    width: 191.235px;
+    height: 68.757px;
+    border-radius: 55px;
+    background: transparent;
+    border: 1px solid #458FF6;
+    cursor: pointer;
+}
+
+.main-button a{
+    text-decoration: none;
+    color: #FFF;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.common-button a{
+    text-decoration: none;
+    color: #458FF6;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    padding: 145px 0 235px 0;
+    height: 100%;
+}
+
+.main-picture{
+    width: 577px;
+    height: 392px;
+    
+    
+}
+
+.services{
+    background-color: #F3FBFF;
+    padding-top: 110px;
+    padding-bottom: 88px;
+
+}
+
+.title-serv{
+    text-align: center;
+    
+}
+
+.title-services-text{
+    color: #A7A7A7;
+    width: 766px;
+    margin: 0 auto;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 27px; /* 142.105% */
+    letter-spacing: 0.38px;
+    
+    
+}
+
+.title-services{
+    color: #462E6A;
+    margin-bottom: 36px;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+}
+
+.services-cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(2, 354px);
+    gap: 36px;
+    margin-top: 111px;
+
+}
+
+.services-card{
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.40);
+}
+
+.services-card img{
+    padding-top: 55px;
+    margin: auto;
+}
+
+.services-card-title{
+    color: #000;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 56px;
+}
+
+.services-card-text{
+    color: #7D7987;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    max-width: 251.679px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.roadmap{
+    margin-top: 103px;
+}
+
+
+
+.roadmap-card{
+    display: flex;
+}
+
+.roadmap-card p{
+    margin-top: 59px;
+    color: #7D7987;
+    width: 434px;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+.roadmap-card-second{
+    display: flex;
+    margin-top: 230px;
+}
+
+.roadmap-card-second p{
+    margin-top: 59px;
+    color: #7D7987;
+    width: 434px;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+.roadmap-content{
+    padding: 52px 0px 0 117px;
+}
+
+.roadmap-title-first{
+    
+    width: 464.36px;
+    color: #462E6A;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 56px;
+}
+
+.roadmap-title-second{
+    width: 510.616px;
+    color: #462E6A;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 56px;
+}
+
+.common-button-roadmap-first{
+    margin-top: 36px;
+    width: 218.825px;
+    height: 56px;   
+    border-radius: 55px;
+    background: transparent;
+    border: 1px solid #458FF6;
+    cursor: pointer;
+}
+
+.common-button-roadmap-second{
+    margin-top: 40px;
+    width: 274.315px;
+    height: 56px;  
+    border-radius: 55px;
+    background: transparent;
+    border: 1px solid #458FF6;
+    cursor: pointer;
+}
+
+.common-button-roadmap-first a{
+    padding: auto;
+    text-decoration: none;
+    color: #458FF6;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.common-button-roadmap-second a{
+    padding: auto;
+    text-decoration: none;
+    color: #458FF6;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+
+.contacts{
+    background: #F3FBFF;
+}
+
+.contacts-card-first{
+    display: flex;
+    margin-top: 230px;
+}
+
+.contacts-title-first{
+    
+    width: 464.36px;
+    color: #462E6A;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 56px;
+}
+
+.contacts-content-first{
+    padding: 92px 0 0 164px;
+}
+
+.contacts-card-first p{
+    margin-top: 59px;
+    color: #7D7987;
+    width: 434px;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+.common-button-contacts-first{
+    margin-top: 78px;
+    width: 274.315px;
+    height: 56px;  
+    border-radius: 55px;
+    background: transparent;
+    border: 1px solid #458FF6;
+    cursor: pointer;
+}
+
+.common-button-contacts-first a{
+    padding: auto;
+    text-decoration: none;
+    color: #458FF6;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.form-title{
+    padding-bottom: 30px;
+    text-align: center;
+    color: #fff;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.contacts-form-block{
+    background: linear-gradient(208deg, #6888C8 9.05%, #5A98F2 76.74%);
+    border-radius: 24px;
+    padding: 80px 0;
+    margin-top: 230px;
+    margin-bottom: 229px;
+}
+
+.contacts-form{
+    max-width: 508px;
+    margin: auto;
+}
+
+.contacts-form-control{
+    margin-bottom: 40px;
+}
+
+.contacts-form input{
+    font-size: 24px;
+    line-height: 34px;
+    font-style: 700;
+    color: #fff;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding: 17px;
+    border-bottom: 1px solid #fff;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.contacts-form input::placeholder{
+    color: #fff;
+}
+
+.common-button-contacts-second{
+    margin-top: 78px;
+    width: 508.023px;
+    height: 56px;
+    border-radius: 55px;
+    border: 1.4px solid #FFF;
+    background: transparent;
+    cursor: pointer;
+}
+
+.common-button-contacts-second a{
+    padding: auto;
+    text-decoration: none;
+    color: #fff;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+
+footer{
+    height: 400px;
+    background: linear-gradient(183deg, #6888C8 -8.57%, #5A98F2 82.96%);
+    color: #FFF;
+}
+
+.footer-content{
+
+    display: flex;
+
+}
+
+.footer-content-block{
+    flex: 1;
+    padding-top: 120px;
+}
+
+.footer-logo{
+    
+    width: 156.929px;
+    height: 29px;
+    font-size: 29px;
+    color: #FFF;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.footer-content p{
+    max-width: 363.071px;;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    line-height: 27px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.footer-copyright{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+}
+
+.footer-menu-items {
+
+}
+
+.footer-menu-item{
+    list-style-type: none;
+}
+
+.footer-menu-item a{
+    color: #FFF;
+    text-decoration: none;
+    font-weight: 100;
+    font-size: 18px;
+    line-height: 38px;
+}
+
+.footer-navigation-title{
+    display: inline-block;
+    font-size: 20px;
+    line-height: 60px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
